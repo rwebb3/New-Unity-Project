@@ -4,8 +4,8 @@ using System.Collections;
 public class CharacterMove : MonoBehaviour{
 	// Normal Movements Variables
 	public float walkSpeed;
-	public float horizontalSpeed;
-	public float verticalSpeed;
+	private float horizontalSpeed;
+	private float verticalSpeed;
 	
 	private float curSpeed;
 	private float maxSpeed;
